@@ -1,0 +1,6 @@
+:concurrency: 5
+
+:schedule:
+  email_scheduler:
+    cron: "* * * * *"
+    class: EmailSchedulerJob
